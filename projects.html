@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ayush Shah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Ensure the footer sticks to the bottom */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 10; /* Push the footer to the bottom */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Projects</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-10 px-4">
+        <h2 class="text-2xl font-bold mb-6">My Work</h2>
+        <div class="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Project 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-2">Responsive Portfolio Website</h3>
+                <p class="text-gray-700 mb-4">
+                    A fully responsive personal portfolio website designed using Tailwind CSS and hosted on GitHub Pages.
+                </p>
+                <a href="https://github.com/your-repo-link" target="_blank" class="text-blue-600 hover:underline">
+                    View on GitHub
+                </a>
+            </div>
+            <!-- Project 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-2">AWS Cloud Deployment</h3>
+                <p class="text-gray-700 mb-4">
+                    Deployed a scalable web application using AWS EC2, S3, and RDS. Focused on automation and cloud best practices.
+                </p>
+                <a href="#" class="text-blue-600 hover:underline">
+                    Learn More
+                </a>
+            </div>
+            <!-- Project 3 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-2">Linux System Automation</h3>
+                <p class="text-gray-700 mb-4">
+                    Automated server maintenance tasks using Bash scripting to optimize performance and reduce downtime.
+                </p>
+                <a href="#" class="text-blue-600 hover:underline">
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <div class="mt-8">
+            <a href="index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Back to Home</a>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>© 2024 Ayush Shah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
